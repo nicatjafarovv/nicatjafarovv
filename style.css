@@ -1,0 +1,37 @@
+.container{
+    background-image:url("seklim.jpg.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+  }
+
+
+.download-btn{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 99999;
+  }
+  .download-btn a{
+    background: none;
+    padding: 13px 22px;
+    font-size: 16px;
+    color: crimson;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .download-btn a:hover{
+      color: #ffffff;
+      background: crimson;
+  }
+  @media screen and (max-width: 600px){
+      .download-btn{
+          left: 20px;
+      }
+      .download-btn a{
+          font-size: 13px;
+          padding: 9px 15px;
+      }
+  }
+</style>
